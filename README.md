@@ -1,2 +1,2 @@
-# mahjong_chip_calculator
-Website for easy tabulation for a Mahjong game
+# Virtual Mahjong Chip
+Website for easy tabulation of winnings for a Mahjong game
