@@ -1,5 +1,6 @@
 import React, { Component } from "react";
-import { AiFillPlusCircle, AiFillMinusCircle } from "react-icons/ai";
+import { AiFillPlusCircle, AiFillMinusCircle, AiFillInstagram, AiOutlineGithub } from "react-icons/ai";
+import { FaFacebook, FaLinkedin } from "react-icons/fa";
 
 class Counter extends Component {
 
@@ -159,7 +160,25 @@ class Counter extends Component {
         <div className='reset-container'>
           <button onClick={this.reset} className='reset-button'>Reset</button>
         </div>
-        
+        <div className='footer-container'>
+          <p>© Built By Wayne Tay</p>
+          <div className='footer'>
+            <div className='footer-logo-div'>
+              <a className='react-icon-btn button' href='https://www.instagram.com/wayne_twh96/'>
+                <AiFillInstagram size={24} className='footer-logo'/>
+              </a>
+              <a className='react-icon-btn button' href='https://www.facebook.com/wayne.tay.904/'>
+                <FaFacebook size={24} className='footer-logo'/>
+              </a>
+              <a className='react-icon-btn button' href='https://www.linkedin.com/in/wayne-tay-62857a72/'>
+                <FaLinkedin size={24} className='footer-logo'/>
+              </a>
+              <a className='react-icon-btn button' href='https://github.com/wayne-wh'>
+                <AiOutlineGithub size={24} className='footer-logo'/>
+              </a>
+            </div>
+          </div>
+        </div>
       </div>
     )
   }
