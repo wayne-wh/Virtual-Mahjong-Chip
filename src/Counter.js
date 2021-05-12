@@ -1,5 +1,5 @@
 import React, { Component } from "react";
-import { AiFillPlusCircle, AiFillMinusCircle, AiFillInstagram, AiOutlineGithub } from "react-icons/ai";
+import { AiFillPlusCircle, AiFillMinusCircle, AiFillInstagram, AiOutlineGithub, AiOutlineArrowRight } from "react-icons/ai";
 import { FaFacebook, FaLinkedin } from "react-icons/fa";
 
 class Counter extends Component {
@@ -117,7 +117,7 @@ class Counter extends Component {
         </div>
         <div className='total-container'>
           <h1>Total: {(this.state.count).toFixed(1)}</h1>
-          <h4>Current Mahjong Rate {`->`} {this.state.multiplier}</h4>
+          <h4>Current Mahjong Rate - {this.state.multiplier}</h4>
         </div>
         <div className='multiplier-container'>
           <p>Play how big?</p>
