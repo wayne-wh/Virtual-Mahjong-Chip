@@ -32,75 +32,147 @@ class Counter extends Component {
 
 
   increment1 = () => {
-    this.setState({
-      count: (this.state.count + (this.state.multiplier))
-    });
+    if (this.state.multiplier === 0.3) {
+      this.setState({
+        count: this.state.count + 1
+      });
+    } else {
+      this.setState({
+        count: (this.state.count + (this.state.multiplier))
+      });
+    }
   }
 
   decrement1 = () => {
-    this.setState({
-      count: (this.state.count - (this.state.multiplier))
-    });
+    if (this.state.multiplier === 0.3) {
+      this.setState({
+        count: this.state.count -1 
+      });
+    } else {
+      this.setState({
+        count: (this.state.count - (this.state.multiplier))
+      });
+    }
   }
 
   increment2 = () => {
-    this.setState({
-      count: this.state.count + (this.state.multiplier*2)
-    });
+    if (this.state.multiplier === 0.3) {
+      this.setState({
+        count: this.state.count + 2
+      });
+    } else {
+      this.setState({
+        count: (this.state.count + (this.state.multiplier*2))
+      });
+    }
   }
 
   decrement2 = () => {
-    this.setState({
-      count: this.state.count - (this.state.multiplier*2)
-    });
+    if (this.state.multiplier === 0.3) {
+      this.setState({
+        count: this.state.count -2
+      });
+    } else {
+      this.setState({
+        count: (this.state.count - (this.state.multiplier*2))
+      });
+    }
   }
 
   increment3 = () => {
-    this.setState({
-      count: this.state.count + (this.state.multiplier*4)
-    });
+    if (this.state.multiplier === 0.3) {
+      this.setState({
+        count: this.state.count + 3
+      });
+    } else {
+      this.setState({
+        count: (this.state.count + (this.state.multiplier*4))
+      });
+    }
   }
 
   decrement3 = () => {
-    this.setState({
-      count: this.state.count - (this.state.multiplier*4)
-    });
+    if (this.state.multiplier === 0.3) {
+      this.setState({
+        count: this.state.count - 3
+      });
+    } else {
+      this.setState({
+        count: (this.state.count - (this.state.multiplier*4))
+      });
+    }
   }
 
   increment4 = () => {
-    this.setState({
-      count: this.state.count + (this.state.multiplier*8)
-    });
+    if (this.state.multiplier === 0.3) {
+      this.setState({
+        count: this.state.count + 5
+      });
+    } else {
+      this.setState({
+        count: (this.state.count + (this.state.multiplier*8))
+      });
+    }
   }
 
   decrement4 = () => {
-    this.setState({
-      count: this.state.count - (this.state.multiplier*8)
-    });
+    if (this.state.multiplier === 0.3) {
+      this.setState({
+        count: this.state.count - 5
+      });
+    } else {
+      this.setState({
+        count: (this.state.count - (this.state.multiplier*8))
+      });
+    }
   }
 
   increment5 = () => {
-    this.setState({
-      count: this.state.count + (this.state.multiplier*16)
-    });
+    if (this.state.multiplier === 0.3) {
+      this.setState({
+        count: this.state.count + 10
+      });
+    } else {
+      this.setState({
+        count: (this.state.count + (this.state.multiplier*16))
+      });
+    }
   }
 
   decrement5 = () => {
-    this.setState({
-      count: this.state.count - (this.state.multiplier*16)
-    });
+    if (this.state.multiplier === 0.3) {
+      this.setState({
+        count: this.state.count - 10
+      });
+    } else {
+      this.setState({
+        count: (this.state.count - (this.state.multiplier*16))
+      });
+    }
   }
 
   increment6 = () => {
-    this.setState({
-      count: this.state.count + (this.state.multiplier*32)
-    });
+    if (this.state.multiplier === 0.3) {
+      this.setState({
+        count: this.state.count + 20
+      });
+    } else {
+      this.setState({
+        count: (this.state.count + (this.state.multiplier*32))
+      });
+    }
   }
 
   decrement6 = () => {
-    this.setState({
-      count: this.state.count - (this.state.multiplier*32)
-    });
+    if (this.state.multiplier === 0.3) {
+      this.setState({
+        count: this.state.count - 20
+      });
+    } else {
+      this.setState({
+        count: (this.state.count - (this.state.multiplier*32))
+      });
+    }
   }
 
   reset = () => {
