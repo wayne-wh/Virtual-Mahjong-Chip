@@ -112,7 +112,7 @@ class Counter extends Component {
     return (
       <div className='main-container'>
         <div className='title-container'>
-          <h1>A virtual mahjong calculator</h1>
+          <h1>Virtual Mahjong Chip</h1>
         </div>
         <div className='total-container'>
           <h1>Total: {(this.state.count).toFixed(1)}</h1>
@@ -128,32 +128,32 @@ class Counter extends Component {
         </div>
         <div className='increment-decrement'>
           <button onClick={this.decrement1} className='increment-decrement-button' ><AiFillMinusCircle/></button>
-          <p>{ this.state.multiplier===0.3 ? 1 : this.state.multiplier*1}</p>
+          <p className='increment-decrement-amount'>{ this.state.multiplier===0.3 ? 1 : this.state.multiplier*1}</p>
           <button onClick={this.increment1} className='increment-decrement-button'><AiFillPlusCircle/></button>
         </div>
         <div className='increment-decrement'>
           <button onClick={this.decrement2} className='increment-decrement-button'><AiFillMinusCircle/></button>
-          <p>{this.state.multiplier===0.3 ? 2 : this.state.multiplier*2}</p>
+          <p className='increment-decrement-amount'>{this.state.multiplier===0.3 ? 2 : this.state.multiplier*2}</p>
           <button onClick={this.increment2} className='increment-decrement-button'><AiFillPlusCircle/></button>
         </div>
         <div className='increment-decrement'>
           <button onClick={this.decrement3} className='increment-decrement-button'><AiFillMinusCircle/></button>
-          <p>{this.state.multiplier===0.3 ? 3 : this.state.multiplier*4}</p>
+          <p className='increment-decrement-amount'>{this.state.multiplier===0.3 ? 3 : this.state.multiplier*4}</p>
           <button onClick={this.increment3} className='increment-decrement-button'><AiFillPlusCircle/></button>
         </div>
         <div className='increment-decrement'>
           <button onClick={this.decrement4} className='increment-decrement-button'><AiFillMinusCircle/></button>
-          <p>{this.state.multiplier===0.3 ? 5 : this.state.multiplier*8}</p>
+          <p className='increment-decrement-amount'>{this.state.multiplier===0.3 ? 5 : this.state.multiplier*8}</p>
           <button onClick={this.increment4} className='increment-decrement-button'><AiFillPlusCircle/></button>
         </div>
         <div className='increment-decrement'>
           <button onClick={this.decrement5} className='increment-decrement-button'><AiFillMinusCircle/></button>
-          <p>{this.state.multiplier===0.3 ? 10 : this.state.multiplier*16}</p>
+          <p className='increment-decrement-amount'>{this.state.multiplier===0.3 ? 10 : this.state.multiplier*16}</p>
           <button onClick={this.increment5} className='increment-decrement-button'><AiFillPlusCircle/></button>
         </div>
         <div className='increment-decrement'>
           <button onClick={this.decrement6} className='increment-decrement-button'><AiFillMinusCircle/></button>
-          <p>{this.state.multiplier===0.3 ? 20 : this.state.multiplier*32}</p>
+          <p className='increment-decrement-amount'>{this.state.multiplier===0.3 ? 20 : this.state.multiplier*32}</p>
           <button onClick={this.increment6} className='increment-decrement-button'><AiFillPlusCircle/></button>
         </div>
         <div className='reset-container'>
